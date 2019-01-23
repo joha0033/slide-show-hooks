@@ -1,0 +1,84 @@
+[aria-hidden="true"] { 
+  display: none; 
+}
+
+ul, h2 {
+  padding:0; 
+  margin: 0;
+}
+
+.Slide {
+  padding: 5vw;
+  height: 100vmax;
+  color: white;
+}
+
+.SlideContent{
+  display:inline-block;
+  border-radius: 2vw;
+  padding: 3vw;
+  background: rgba(0, 0, 0, 0.65);
+  font-size: medium;
+  text-align: left;
+}
+.Title {
+  padding-bottom:2%;
+}
+
+.Controls {
+  position: absolute;
+  display: flex;
+  padding: 5vw;
+  right: 5vw;
+  bottom: 0;
+}
+
+.SlideNav {
+  position: absolute;
+  display: flex;
+  padding: 5vw;
+  left: 5vw;
+  bottom: 0;
+}
+
+.IconButton {
+  background:none;
+  border: none;
+  opacity: .9;
+  font-size: 2rem;
+  color: rgb(199, 184, 184);
+}
+
+.SlideNavItemOff {
+  background:none;
+  border: none;
+  opacity: .6;
+  font-size: 2rem;
+  color: rgb(199, 184, 184);
+}
+
+.SlideNavItemOn {
+  background:none;
+  border: none;
+  opacity: 1;
+  font-size: 2rem;
+  color: rgb(199, 184, 184);
+}
+
+.ProgressBar {
+  position: absolute;
+  display: flex;
+  height: 3%;
+  opacity: .8;
+  color: rgb(199, 184, 184);
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.ProgressBar div {
+  opacity: .8;
+  background-color: rgb(199, 184, 184);
+}
+
+
