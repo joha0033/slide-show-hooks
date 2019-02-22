@@ -1,8 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+**please star this repo if you clone it, and/or you just like it, thanks!**
+
+*credits to the react team for the inspiration of this demo.*
+
 # Slide-show/Carousel
 
-This project utilizes useState, useEffect, useReducer, and useRef. Data is not fetched from an api and the live demo hosted on Google Cloud Platform can be found [here](https://slideshow-react-hooks-gcp.appspot.com/)
+This project utilizes useState, useEffect, useReducer, and useRef. Data is not fetched from an api, but stored in data.js and the live demo hosted on GCP can be found [here](https://slideshow-react-hooks-gcp.appspot.com/) 
+
+If you are cloning this project to learn hooks, I would recommend trying to implement a custom hook called ```useFetch``` to get data from an API with a basic image, title, and body/content. For example, NASA's API [Astronomy Picture of the Day](https://api.nasa.gov/api.html#apod). The information on how to use the API [can be found here](https://api.nasa.gov/index.html#getting-started).
+
+Don't hesitate to reach out with any questions or comments.
+
 
 ## Available Scripts
 
