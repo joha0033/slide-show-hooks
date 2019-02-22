@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slides component returns an <ul> tag  1`] = `
+<ul
+  className="Slides"
+/>
+`;
