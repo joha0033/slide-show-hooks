@@ -1,0 +1,11 @@
+site_name: DirectHub Frontend
+
+nav:
+  - Stripe: stripe-info.md
+  - Apollo:
+      - codegen: local-codegen.md
+      - resolvers: local-resolvers.md
+      - cache: persisted-cache.md
+      - reactive-vars: reactive-vars.md
+plugins:
+  - techdocs-core
